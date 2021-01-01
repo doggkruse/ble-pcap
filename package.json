@@ -1,0 +1,27 @@
+{
+  "name": "ble-pcap",
+  "version": "1.0.0",
+  "description": "nodejs library for working with Bluetooth Low Energy packet captures (pcap)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doggkruse/ble-pcap.git"
+  },
+  "keywords": [
+    "BLE",
+    "pcap",
+    "Bluetooth"
+  ],
+  "author": "Geoffrey Kruse <6468053+doggkruse@users.noreply.github.com> (https://github.com/doggkruse)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doggkruse/ble-pcap/issues"
+  },
+  "homepage": "https://github.com/doggkruse/ble-pcap#readme",
+  "dependencies": {
+    "pcap": "^3.1.0"
+  }
+}
