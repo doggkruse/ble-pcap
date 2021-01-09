@@ -49,9 +49,11 @@ NordicBle.prototype.decode = function(raw_packet, offset) {
         return this;
     }
 
+    this.phy = (this.flags & 0x70) >> 4;
+
     this.ble_ll = new BleLL(this.emitter).decode(raw_packet, offset);
 
-    if(this.emitter) { 
+    if(this.emitter) {
         this.emitter.emit(this.decoderName, this);
     }
 
